@@ -1,0 +1,42 @@
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+      - name: Archive production build
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: public  
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download build artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+          path: public  
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public 
+          CLEAN: true
