@@ -20,7 +20,7 @@ export default function App() {
       <Header />
 
       <Routes>
-        <Route path="/<Chapterverse_Web>" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
 
         <Route path="/books" element={<BooksListPage />} />
         <Route path="/contact-us" element={<ContactUsFormPage />} />
