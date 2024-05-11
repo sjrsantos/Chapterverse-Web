@@ -6,12 +6,18 @@ Despite both of them consuming Open Library API, each one has unique responses a
 
 If you search for the same book on each app, you will find different aspects covered.
 
+## Follow the link to test our Web App and feel free to give us feedback on how to improve it:
+
+https://sjrsantos.github.io/Chapterverse-Web/
+
 If you have Expo Go installed on your smartphone/device you can scan these QR Codes to test our Chapterverse mobile app:
 
-For iOS try the following QR Code:
+### For iOS try the following QR Code:
+
 ![iOS QR Code](./src/assets/images/qrCodeIOS.jpg)
 
-For Android try the following QR Code:
+### For Android try the following QR Code:
+
 ![Android QR Code](./src/assets/images/qrCodeAndroid.jpg)
 
 ## Getting Started with Create React App
