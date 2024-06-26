@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Chapterverse-Web/static/css/main.55b9a525.css",
+    "main.css": "/Chapterverse-Web/static/css/main.23cbb071.css",
     "main.js": "/Chapterverse-Web/static/js/main.008fa73f.js",
     "static/media/book.jpg": "/Chapterverse-Web/static/media/book.30184eb73ba093c50cc3.jpg",
     "static/media/devSquad.png": "/Chapterverse-Web/static/media/devSquad.7077a5985012915b48cf.png",
     "static/media/qrCodeIOS.jpg": "/Chapterverse-Web/static/media/qrCodeIOS.9132246939bbf52e4f0c.jpg",
     "static/media/qrCodeAndroid.jpg": "/Chapterverse-Web/static/media/qrCodeAndroid.eb0a2d171b2d17907574.jpg",
     "index.html": "/Chapterverse-Web/index.html",
-    "main.55b9a525.css.map": "/Chapterverse-Web/static/css/main.55b9a525.css.map",
+    "main.23cbb071.css.map": "/Chapterverse-Web/static/css/main.23cbb071.css.map",
     "main.008fa73f.js.map": "/Chapterverse-Web/static/js/main.008fa73f.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b9a525.css",
+    "static/css/main.23cbb071.css",
     "static/js/main.008fa73f.js"
   ]
 }
