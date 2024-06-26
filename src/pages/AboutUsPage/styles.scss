@@ -59,6 +59,10 @@ main.page {
           width: 20%;
           border-radius: 30%;
           margin: 0 auto;
+
+          @media (max-width: 480px) {
+            width: 80%; // Ensure the image scales properly on small screens
+          }
         }
       }
     }

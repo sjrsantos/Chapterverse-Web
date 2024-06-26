@@ -11,12 +11,16 @@
     display: flex;
     justify-content: start;
     gap: 1rem;
+    flex-direction: column; /* Ensure buttons stack vertically on mobile */
 
     .btn {
       padding: 0.5rem 1rem;
       border: none;
       cursor: pointer;
       transition: background-color 0.3s ease;
+      white-space: nowrap; /* Prevent text from breaking into multiple lines */
+      overflow: hidden;
+      text-overflow: ellipsis; /* Add ellipsis for overflow text */
 
       &:hover {
         opacity: 0.9;
