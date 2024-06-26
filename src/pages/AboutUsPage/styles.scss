@@ -56,7 +56,9 @@ main.page {
         flex-basis: 100%; // Ensure the logo takes up full width
 
         @media (max-width: 480px) {
-          display: none; // Hide the logo on small screens
+          img {
+            display: none; // Hide the logo on small screens
+          }
         }
 
         img {
